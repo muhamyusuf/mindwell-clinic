@@ -1,0 +1,42 @@
+h1 {
+  color: #fd385d;
+  font-size: 2em;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 25px;
+}
+
+td,
+th {
+  border: 1px solid #f3f3ff;
+  text-align: left;
+  padding: 8px;
+  color: #f3f3f3;
+}
+
+tr:nth-child(even) {
+  background-color: #fd385d;
+  color: #f3f3ff;
+}
+
+/* Di file style.css atau admin/style.css */
+#adminContent {
+  display: none; /* Sembunyikan konten admin */
+}
+
+.logout {
+  background-color: #fd385d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout:hover {
+  background-color: #ff5a79;
+}

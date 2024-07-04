@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buat Jadwal Konsultasi</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <a href="/" class="mindwell-logo-container">
+            <img
+              src="/assets/brain-ilus.png"
+              alt="MindWell-logo"
+              class="MindWell-logo"
+            />
+            <p class="logo-text">MindWell</p>
+          </a>
+
+          <div class="nav-link-container">
+            <a href="/buat-jadwal/index.html" class="nav-link">Buat Jadwal</a>
+            <a href="/jadwal-konsultasi/index.html" class="nav-link"
+              >Jadwal Konsultasi</a
+            >
+          </div>
+        </div>
+
+        <div class="login btn-login nav-right">
+          <a href="/login" class="nav-link">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero-container">
+      <img
+        src="../assets/konsul.png"
+        alt="MindWell Clinic"
+        class="hero-image"
+      />
+
+      <div class="hero-text">
+        <h1>Buat Jadwal Konsultasi</h1>
+
+        <section id="buat-janji">
+          <form id="appointment-form">
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              required
+              placeholder="Nama"
+            />
+
+            <input
+              type="tel"
+              id="no_telepon"
+              name="no_telepon"
+              required
+              max="13"
+              placeholder="No.Telepon  contoh: 081234567890"
+            />
+
+            <input type="date" id="tanggal" name="tanggal" required />
+
+            <input type="time" id="waktu" name="waktu" required />
+
+            <textarea
+              id="keluhan"
+              name="keluhan"
+              rows="4"
+              cols="50"
+              placeholder="Keluhan anda..."
+              required
+            ></textarea>
+
+            <button type="button" id="simpanJadwal">Buat Janji</button>
+            <!-- <button type="button" id="simpanJadwal">Simpan Jadwal</button> -->
+          </form>
+        </section>
+      </div>
+    </section>
+    <script src="../script.js"></script>
+  </body>
+</html>

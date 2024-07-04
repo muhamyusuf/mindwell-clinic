@@ -1,0 +1,18 @@
+h1 {
+  color: #fd385d;
+}
+
+#buat-janji {
+  margin-top: 30px;
+}
+
+#appointment-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border: 1px solid #fd385d; */
+}
+
+label {
+  font-size: 0.6em;
+}
